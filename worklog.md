@@ -1,0 +1,4 @@
+// Write 1 - 2 paragraphs describing each HTML page.  Index, aboutme, hardware, htmlcss.Write
+// Make sure to include what it is that you made, and explain some of the code that you used to make it
+
+In about me page it talks about stuff about me so the people that goes to my website can know a little bit of me. Also there going find the stuff I do on the days that I dont have to do anything and the hobbies I like. In the Index part it tells you a little bit of computer science class and the reasons why I choosed to be in Computer science. In the hardware part it informs you each part of a computer and what do they do to the computer. 
