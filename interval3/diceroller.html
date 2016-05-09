@@ -2,14 +2,25 @@
 <html>
     <head>
         <style>
+            .display{
+                
+                border:black 2px solid;
+               width:40px;
+               height:40px;
+               margin:5px;
+               text-align:center;
+            }
             
+            body {
+                background-color: green;
+            }
         </style>
-        <title> </title>
+        <title>Dice Roller </title>
     </head>
     <body>
-
+<h1>Dice Roller Game</h1>
 <button id="rollDice" >Roll dice</button>
-<button >Reset Form</button>
+<button id="resetForm" >Reset Form</button>
 
 <select id = "side" enabled>
   <!--<option value="1">1 Side</option>-->
@@ -23,20 +34,21 @@
 </select>
 
 
-<select id = "dice" enabled>
-  <option value="1">1 dice</option>
-  <option value="2">2 dice</option>
-  <option value="3">3 dice</option>
-  <option value="4">4 dice</option>
-  <option value="5">5 dice</option>
-  <option value="6">6 dice</option>
-</select>
- <div id="die1display"></div>
- <di id="die2display"></div></div>
-  <div id="die3display"></div>
-   <div id="die4display"></div>
-    <div id="die5display"></div>
-   <div id="die6display"></div> `
+<!--<select id = "dice" enabled>-->
+<!--  <option value="1">1 dice</option>-->
+<!--  <option value="2">2 dice</option>-->
+<!--  <option value="3">3 dice</option>-->
+<!--  <option value="4">4 dice</option>-->
+<!--  <option value="5">5 dice</option>-->
+<!--  <option value="6">6 dice</option>-->
+<!--</select>-->
+
+ <div class="display" id="die1display"></div>
+ <div class="display" id="die2display"></div>
+  <div class="display" id="die3display"></div>
+   <div class="display" id="die4display"></div>
+    <div Class="display" id="die5display"></div>
+   <div class="display" id="die6display"></div> 
         <script type="text/javascript" src="diceroller.js"></script>
     </body>
 </html>
